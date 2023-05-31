@@ -1,7 +1,7 @@
 program temperature_conversion
     implicit none
     character(len=100) :: input_file = "input.csv"
-    character(len=100) :: output_file = "output.csv"
+    character(len=100) :: output_file = "8674521_Air-Temperature-Assignment.csv"
     character(len=100) :: line
     real :: celsius, kelvin
     integer :: num_temps, i
